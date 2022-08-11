@@ -1,24 +1,15 @@
-# Assignment 3
-
-## Group Information
-
-1. *Group No*: 24
-2. *Date Created*: 13 JUL 2022
-3. *Last Modification Date*: 15 JUL 2022
-4. *Website URL*: http://group24-expensetracker-dev.us-east-1.elasticbeanstalk.com/
-5. *Git URL*: https://git.cs.dal.ca/ayushv/group24_expensetracker
+*Website URL*: http://group24-expensetracker-dev.us-east-1.elasticbeanstalk.com/
 
 ## Authors
 
-* Abhishek Uppe (ab577089@dal.ca)
-* Vatsal Yadav (vatsal.yadav@dal.ca)
+* Abhishek Uppe (https://github.com/uppeabhishek/)
+* Vatsal Yadav (https://github.com/Vatsalyadav/)
 * Devarshi Vyas (dv459527@dal.ca)
-* Ayush Verma (ayush.verma@dal.ca)
-* Smit Thakkar (sm928548@dal.ca)
-* Benny Tharigopala (bn489600@dal.ca)
+* Ayush Verma (https://github.com/ayushverma8/)
+* Smit Thakkar (https://github.com/whitetiger47/)
+* Benny Tharigopala (https://github.com/Tech-Knight-Danny/)
 
-## Features developed ( 9/12 i.e 75% features completed)
-
+## Features developed
 
 1. Group Expense Tracking
 
@@ -94,190 +85,11 @@
    3. Spending Trends
    4. Expense Tracking
 
-## Individual Branches
-
-### 1. Abhishek Uppe
-
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/abhishek-uppe-b00885768
-
-### 2. Vatsal Yadav
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/vatsal-yadav-b00893030
-
-### 3. Devarshi Vyas
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/devarshi-vyas-b00878443
-
-### 4. Ayush Verma
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/ayush-verma-b00893024
-
-### 5. Smit Thakkar
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/smit-thakkar-b00896215
-
-### 6. Benny Tharigopala
-https://git.cs.dal.ca/ayushv/group24_expensetracker/-/tree/benny-tharigopala-b00899629
-
-
-## Files worked on
-
-## 1. Abhishek Uppe
-
-**Feature: Group Expense Tracking**
-**Frontend**
-
-1. frontend/src/components/group/CreateGroup.jsx
-2. frontend/src/components/group/DeleteGroup.jsx
-3. frontend/src/components/group/EditGroup.jsx
-4. frontend/src/components/group/GroupHomePage.jsx
-5. frontend/src/components/group/helpers.js
-6. frontend/src/components/group/ViewGroup.jsx
-7. frontend/src/components/Heading/Heading.jsx
-8. frontend/src/components/SideBar/index.js
-9. frontend/src/components/notifications/EmailNotification.jsx
-10. frontend/src/components/notifications/NotificationSettings.jsx
-11. frontend/src/components/notifications/ViewNotification.jsx
-12. frontend/src/redux/actions/group.js
-13. frontend/src/redux/actions/index.js
-14. frontend/src/redux/reducers/group.js
-15. frontend/src/redux/reducers/index.js
-16. frontend/src/redux/sagas/group.js
-17. frontend/src/redux/sagas/index.js
-18. frontend/src/redux/store.js
-19. frontend/src/App.js (Partial)
-20. frontend/src/constants.js (Partial)
-21. frontend/src/App.css (Partial)
-22. frontend/src/css/group.css
-23. frontend/src/css/heading.css
-
-**Backend**
-
-1. backend/controllers/group.js
-2. backend/controllers/notification.js
-3. backend/routes/index.js (Partial)
-4. backend/index.js
-5. backend/utils.js
-
-
-## 2. Vatsal Yadav
-
-**Feature: Payment Reminder**
-**Frontend**
-
-1. frontend\src\components\paymentReminders\RemindersGrid.js
-2. frontend\src\components\paymentReminders\CreateReminder.js
-3. frontend\src\redux\actions\reminder.js
-4. frontend\src\redux\reducers\reminder.js
-5. frontend\src\redux\sagas\reminder.js
-6. frontend/src/components/analytics/AnalyticsHome.jsx 
-7. frontend/src/components/analytics/ExpenseAnalysis.jsx 
-8. frontend/src/components/analytics/ExpenseTracking.jsx 
-9. frontend/src/components/analytics/SpendingAnalysis.jsx
-10. frontend\src\redux\actions\index.js (partial)
-11. frontend\src\redux\reducers\index.js (partial)
-12. frontend\src\redux\sagas\index.js (partial)
-13. frontend\src\components\routing\index.js (partial)
-
-**Backend**
-
-1. backend/controllers/reminders.js
-2. backend/routes/index.js (Partial)
-
-## 3. Devarshi Vyas
-
-**Feature: Categorial Expense (Tags)**
-
-**Frontend**
-1. frontend/src/components/UserManagement/ChangePassword.jsx
-2. frontend/src/components/UserManagement/ForgetPassword.jsx
-3. frontend/src/components/UserManagement/Signup.jsx
-4. frontend/src/components/UserManagement/Login.jsx
-5. frontend/src/redux/reducers/config.js
-6. frontend/src/components/HomePage.jsx
-7. frontend/src/routing/index.js (partial)
-
-**Backend**
-1. backend/controllers/tags.js
-2. backend/routes/index.js (partial)
-
-## 4. Ayush Verma
-
-**Feature: Categorial Expense (Tags)**
-
-**Frontend**
-1. frontend/src/components/tags/CreateEditTag.jsx
-2. frontend/src/components/tags/ViewTags.jsx
-3. frontend/src/components/tags/ViewTagDetails.jsx
-4. frontend/src/redux/actions/tags.jsx
-5. frontend/src/redux/reducers/tags.jsx
-6. frontend/src/redux/sagas/tags.jsx
-7. frontend/src/components/CouponManagement/Helpers/footer.jsx 
-8. frontend/src/components/CouponManagement/Helpers/header.jsx 
-9. frontend/src/components/CouponManagement/Helpers/menu.jsx 
-10. frontend/src/components/CouponManagement/Helpers/meta.jsx
-11. frontend/src/components/CouponManagement/Layout/Layout.jsx 
-12. frontend/src/components/CouponManagement/couponRedeemed.jsx 
-13. frontend/src/components/CouponManagement/notFound.jsx 
-14. frontend/src/components/CouponManagement/redeemCoupon.jsx 
-15. frontend/src/components/CouponManagement/viewCoupons.jsx
-16. frontend/src/routing/index.js (partial)
-17. frontend/src/App.js (Partial)
-18. frontend/src/constants.js (Partial)
-19. frontend/src/App.css (Partial)
-
-**Backend**
-1. backend/controllers/coupons.js
-2. backend/controllers/userManagement.js
-
-
-## 5. Smit Thakkar
-**Feature: Expense Tracker**
-**Frontend**
-
-1. frontend/src/components/expense/AddExpense.jsx
-2. frontend/src/components/expense/DeleteExpense.jsx
-3. frontend/src/components/expense/EditExpense.jsx
-4. frontend/src/components/expense/ExpenseHomePage.jsx
-5. frontend/src/components/expense/helpers.js
-6. frontend/src/components/expense/ViewExpense.jsx
-7. frontend/src/redux/actions/expense.js
-8. frontend/src/redux/reducers/expense.js
-9. frontend/src/redux/sagas/expense.js
-10. frontend/src/css/expense.css
-
-
-**Backend**
-
-1. backend/controllers/expense.js
-2. backend/routes/index.js (Partial)
-
-## 6. Benny Tharigopala
-
-**Feature: In-App Payment Integration**
-**Frontend**
-
-1. frontend/src/components/Payments/InitiatePayment.jsx
-2. frontend/src/components/Payments/PaymentMethod.jsx
-3. frontend/src/components/Payments/PaymentStatus.jsx
-4. frontend/src/components/Payments/PaymentHistory.jsx
-5. frontend/src/components/Payments/checkout.jsx
-6. frontend/src/redux/actions/transaction.jsx
-7. frontend/src/redux/reducers/transaction.jsx
-8. frontend/src/redux/sagas/transaction.jsx
-9. frontend/src/routing/index.js (Team-Effort)
-10. frontend/src/App.js (Partial)
-11. frontend/src/constants.js (Partial)
-12. frontend/src/App.css (Partial)
-
-**Backend**
-
-1. backend/controllers/transaction.js
-2. backend/routes/index.js (Team-Effort)
-
-
-
 ## Getting Started
 
 ### Prerequisites
 
-To have a local copy of this lab / assignment / project up and running on your local machine, you will first need to
+To have a local copy of this applicationup and running on your local machine, you will first need to
 install the following software / libraries / plug-ins
 
 ```
