@@ -1,4 +1,4 @@
-*Website URL*: http://group24-expensetracker-dev.us-east-1.elasticbeanstalk.com/
+# Expense Tracker built with ReactJS and NodeJS
 
 ## Authors
 
